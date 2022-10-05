@@ -21,7 +21,7 @@ function initMap() {
             lat: position.coords.latitude,
             lng: position.coords.longitude,
           };
-
+          console.log("watchId - "+watchId)
           infoWindow.setPosition(pos);
           infoWindow.setContent("Location found.");
           infoWindow.open(map);
