@@ -6,11 +6,10 @@
 
       const watchId = navigator.geolocation.watchPosition(position => {
       const { latitude, longitude } = position.coords;
+      map.innerHTML='<iframe width="700" height="300" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC38bTm0Hz1Hu14Uh3BzZg1djOZVw-kmG8&map_ids=760b63c14d90d0ab&callback=initMap"
+      ></iframe>';
       });
-      <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC38bTm0Hz1Hu14Uh3BzZg1djOZVw-kmG8&map_ids=760b63c14d90d0ab&callback=initMap"
-      defer
-    ></script>
+     
 
 </body>
 </html>
